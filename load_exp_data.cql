@@ -20,7 +20,7 @@ CREATE CONSTRAINT gene_id ON (g:Gene) ASSERT (g.gene) IS UNIQUE;
 
 CALL db.awaitIndexes()
 
-LOAD CSV WITH HEADERS FROM "file:////Users/meraidandouch/Desktop/NeuromicsLab/bb_graph_load/load_exp_data/data/pathwayToNodes.csv" AS row
+LOAD CSV WITH HEADERS FROM "file:////Users/<user>/pathway/to/data/pathwayToNodes.csv" AS row
 WITH row
 CREATE (s:Sample)
 SET s += row
