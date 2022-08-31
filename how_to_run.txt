@@ -1,0 +1,15 @@
+// TO RUN preprocess_expdata.py
+// if you wanna grab all files in a directory as a command line argument 
+using sys.argv in python 
+python3.9 /home/meraid/meraid_data/preprocess_expdata.py
+
+// TO RUN make_filepathways.py which creates a csv with file pathways and 
+sample name 
+
+python3.9 /home/meraid/meraid_data/data/make_exp_filepathways.py
+
+
+// TO lOAD DATA 
+// go to ptsdbb vm and enter this in command line 
+sudo cat loadFilesExpData_v1.cql | cypher-shell -u neo4j -p bioinformatics 
+--format plain
