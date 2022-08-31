@@ -1,4 +1,4 @@
-# neo4j_internship 
+# graph design neo4j internship 
 
 #### DandouchMerai_InternshipReport.pdf
 - a report explaining my learning experience as a neo4j intern for the BU Neuromics Lab
