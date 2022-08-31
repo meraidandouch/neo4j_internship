@@ -1,5 +1,7 @@
 # neo4j_internship 
 
+#### DandouchMerai_InternshipReport.pdf
+- a report explaining my learning experience as a neo4j intern for the BU Neuromics Lab
 
 #### preprocess_expdata.py
 - pratice dataset is a GTEX RNA-Seq raw read count file (56382 genes x 8555 samples) that is too large for neo4j to handle in one batch. This script partitions the data into 8555 seperate files where each file represents a sample and its corresponding gene and gene counts. 
@@ -15,6 +17,3 @@
 
 #### how_to_run.txt
 - a text file explaining how to run scripts using unix in a VM 
-
-#### DandouchMerai_InternshipReport.pdf
-- a report explaining my learning experience as a neo4j intern for the BU Neuromics Lab
